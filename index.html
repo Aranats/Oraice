@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orange Gold Export - Jugo de Naranja Premium</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #FFFDF9;
+      color: #333;
+    }
+
+    header {
+      background: #ea6014;
+      color: white;
+      padding: 40px 20px 20px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .header-divider {
+      width: 80px;
+      height: 4px;
+      background-color: white;
+      margin: 20px auto 10px auto;
+      border-radius: 2px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      position: relative;
+      padding: 120px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .hero video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -2;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: -1;
+    }
+
+    .hero h2 {
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    .btn-orange {
+      background-color: #ea6014;
+      color: #333;
+      font-weight: bold;
+      border-radius: 30px;
+      padding: 10px 24px;
+    }
+
+    .btn-orange:hover {
+      background-color: #ea6014;
+      color: white;
+    }
+
+    .contact form input,
+    .contact form textarea {
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 60px;
+    }
+
+    h2, h4 {
+      font-weight: 700;
+    }
+
+    .color-naranja {
+      color: #ea6014 !important;
+    }
+
+    .carousel-inner img {
+      height: 420px;
+      object-fit: cover;
+    }
+
+    .info-producto p {
+      font-size: 1.05rem;
+      line-height: 1.8;
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="fw-bold">Oraice</h1>
+    <div class="header-divider"></div>
+    <nav class="mt-3">
+      <a href="#features">Beneficios</a>
+      <a href="#producto">Producto</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <video autoplay muted loop playsinline>
+      <source src="videos/fondo-jugo.mp4.mp4" type="video/mp4">
+      
+    </video>
+    <div class="container py-5">
+      <h2 class="fw-bold">Exportamos jugo de naranja premium a EE. UU.</h2>
+      <p class="lead">Con calidad certificada, sabor natural y logística eficiente para tu empresa.</p>
+      <a href="#contact" class="btn btn-orange mt-4">Solicita una Cotización</a>
+    </div>
+  </section>
+
+  <section class="container py-5" id="features">
+    <h2 class="text-center color-naranja mb-4">Nuestros Beneficios</h2>
+    <div class="row g-4">
+      <div class="col-md-4 text-center">
+        <img src="https://img.icons8.com/fluency/96/organic-food.png" alt="Orgánico">
+        <h4 class="mt-3 color-naranja">Orgánico y Natural</h4>
+        <p>Libre de aditivos y conservantes, con certificaciones USDA y FDA.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="https://img.icons8.com/fluency/96/in-transit.png" alt="Logística">
+        <h4 class="mt-3 color-naranja">Envíos Seguros</h4>
+        <p>Cadena de frío garantizada para mantener la frescura.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="https://img.icons8.com/fluency/96/checked--v1.png" alt="Calidad">
+        <h4 class="mt-3 color-naranja">Control de Calidad</h4>
+        <p>Inspección rigurosa en cada lote exportado a EE. UU.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container py-5" id="producto">
+    <h2 class="text-center color-naranja mb-4">Información del Producto</h2>
+    <div class="row align-items-center info-producto border rounded p-4">
+      <div class="col-md-6">
+        <p>
+          <strong>Oraice</strong> es un jugo de naranja congelado que conserva toda la frescura y pureza de la fruta recién exprimida. Su presentación en envase transparente y minimalista refleja su esencia: natural y listo para disfrutar. Ideal para quienes buscan una opción saludable y auténtica, con la comodidad de un producto listo para consumir.
+        </p>
+        <p>
+          Se bebe en estado líquido, luego de descongelar. Puede tomarse directamente del envase o servirse en vaso. Se recomienda agitar antes de consumir. Ideal como bebida natural o para preparar smoothies y cócteles.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="imagenes/Capturaoraice.PNG" alt="Jugo Oraice" class="img-fluid rounded shadow">
+      </div>
+    </div>
+  </section>
+
+  <section class="container py-5" id="galeria">
+    <h2 class="text-center color-naranja mb-4">Galería de Imágenes</h2>
+    <div id="carouselJugo" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagenes/imagen1.jpg" class="d-block w-100 rounded" alt="Producción de jugo">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/platacion-de-naranjas2.jpg" class="d-block w-100 rounded" alt="Botellas para exportación">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/fresh-orange-juice-for-drink-in-bottle-glass-free-photo.jpg" class="d-block w-100 rounded" alt="Cultivo de naranjas">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselJugo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselJugo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="contact bg-light py-5" id="contact">
+    <div class="container">
+      <h2 class="text-center color-naranja mb-3">Contáctanos</h2>
+      <p class="text-center mb-4">Estamos listos para atender tu pedido internacional de jugo premium.</p>
+      <form class="mx-auto" style="max-width: 500px;">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Tu nombre" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Correo electrónico" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-orange">Enviar Mensaje</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Orange Gold Export. Todos los derechos reservados.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
